@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  h1{
+    font-size: 50px;
+    padding-bottom: 20px;
+  }
+  h2{
+    font-size: 40px;
+    padding-bottom: 20px;
+  }
+  h3{
+    padding-bottom: 15px;
+  }
+  p{
+    font-size: 18px;
+    padding-bottom: 30px;
+  }
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+.header-area{
+    background-image: url(images/welcome-donate-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 699.79px;
+}
+section{
+    margin-bottom: 120px;
+}
+.green-color{
+    color: green;
+}
+.header-content{
+    width: 60%;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+.anchor-button{
+    text-decoration: none;
+    background-image: linear-gradient(red, maroon);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+/* End Header Area */
+
+.divide{
+    display: flex;
+}
+.half-width{
+    width: 35%;
+    margin-left: 10%;
+}
+.content-img img{
+    width: 100%;
+    height: 450px;
+    margin-left: 0%;
+}
+/* End Qurbani and Orphan Area*/
+
+.center-heading{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+.box-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.help-box{
+    width: 461px;
+    height: 225px;
+    background-color: #FEF4F5;
+    box-shadow: 5px 5px 20px rgb(201, 197, 197);
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+    cursor: pointer;
+}
+.helpbox-icon{
+    padding-left: 25px;
+    padding-top: 25px;
+}
+.helpbox-content{
+    padding: 20px;
+}
+
+/* End Helpbox Area */
+
+.img-gallery{
+    display: flex;
+    justify-content: center;
+}
+.prayer-img{
+    width: 364px;
+    margin: 10px;
+}
+.prayer-img img{
+    width: 100%;
+    border-radius: 5px;
+    height: 390px;
+    background-size: cover;
+}
+
+/* End Images Gallery */
+
+.jakat-fund{
+    display: flex;
+    justify-content: center;
+}
+
+.jakat-fund-box{
+    width: 364px;
+    margin: 10px;
+    border: 1px solid rgb(235, 232, 232);
+    border-radius: 10px;
+}
+
+.jakat-fund-box img{
+    width: 100%;
+}
+
+.jakat-fund-content{
+    padding: 20px;
+}
+
+.jakat-fund-content > a{
+    color: red;
+}
+
+/* End Jakat Fund Area */
+
+footer{
+    background-color: rgb(39, 38, 38);
+    height: 177px;
+}
+footer h3{
+    color: rgb(216, 59, 59);
+    font-size: 25px;
+    padding-top: 60px;
+}
+footer i{
+    color: white;
+}
+
+#footer-content{
+    align-items: center;
+    text-align: center;
+}
